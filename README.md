@@ -2,10 +2,12 @@
 
 ## Installation
 
+Create a flake in the current directory from a template `nix-templates#nodejs`
 ```sh
-# create a template in current project
 nix flake init -t github:jonathandion/nix-templates#nodejs
+```
 
-# create a template in a new project called `myAwesomeProject`
+Create a flake in the specified directory from a template `nix-templates#nodejs`
+```
 nix flake new myAwesomeProject -t github:jonathandion/nix-templates#nodejs
 ```
