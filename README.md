@@ -1,1 +1,1 @@
-# nix-templates
+# ❄️ nix-templates
