@@ -4,11 +4,11 @@
   '';
   outputs = { self }: {
     templates = {
-      nodejs = {
-        path = ./nodejs;
-        description = "A simple nodejs template";
+      webdev = {
+        path = ./web-dev/.;
+        description = "A simple web-dev template";
       };
     };
-    defaultTemplate = self.templates.nodejs;
+    defaultTemplate = self.templates.webdev;
   };
 }
