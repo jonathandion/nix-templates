@@ -14,7 +14,7 @@ nix flake new myAwesomeProject -t github:jonathandion/nix-templates#webdev
 
 to save the registry:
 ```sh
-nix registry add jondion github:jonathandion/nix-templates
+nix registry add jdion github:jonathandion/nix-templates
 
-nix flake init -t jondion#webdev
+nix flake init -t jdion#webdev
 ```
